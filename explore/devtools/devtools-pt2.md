@@ -1,0 +1,2 @@
+1. The input values are string, so adding them does string concatenation instead of arithmatic operation. Therefore, it does not give an arithmatic sum of two input values but a string of them concatenated.
+2. Instead of num1 + num2, I changed it to parseInt(num1) + parseInt(num2) to sucessfully do an arithmatic operation.
